@@ -1,0 +1,18 @@
+.cardImg {
+	width: 250px;
+	height: 350px;
+}
+.card {
+	margin: 10px;
+	display: flex;
+	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cardName {
+	color: black;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}

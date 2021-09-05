@@ -1,0 +1,44 @@
+.itemNavMenu {
+	/* margin: 0 0px 0 0px; */
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+.itemNavMenu:hover:not(.active) {
+	color: rgb(255, 255, 255);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #7e1f1f;
+	display: flex;
+	align-items: center;
+	font-size: calc(10px + 1.5vmin);
+
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-list {
+	list-style: none;
+	display: flex;
+	color: white;
+	text-decoration: none;
+	margin: 0;
+}
+.navbar-list a.chosen,
+.navbar-list a:hover {
+	color: white;
+	background-color: #550000;
+}
+.navbar-list a {
+	color: white;
+	text-decoration: none;
+}
+.navbar-logo {
+	padding: 10px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-decoration: none;
+}
