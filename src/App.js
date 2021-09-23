@@ -1,8 +1,9 @@
 import { Switch, Route } from 'react-router-dom'
 
-import Header from './components/Header'
+import AdminAddCharacter from './screen/AdminAddCharacter'
 import Characters from './screen/Characters'
 import CharacterDetails from './screen/CharacterDetails'
+import Header from './components/Header'
 import Home from './screen/Home'
 
 import './App.css'
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path='/characters/:id'>
           <CharacterDetails />
+        </Route>
+        <Route path='/admin'>
+          <AdminAddCharacter />
         </Route>
       </Switch>
     </div>
